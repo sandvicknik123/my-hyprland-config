@@ -1,0 +1,46 @@
+{
+    "positionX": "right",
+    "positionY": "top",
+    "control-center-width": 400,
+    "control-center-height": 600,
+
+    "notification-window-width": 380,
+
+    "timeout": 5,
+    "timeout-low": 3,
+    "timeout-critical": 0,
+
+    "keyboard-shortcuts": true,
+
+    "image-visibility": "always",
+
+    "notification-2fa-action": true,
+
+    "widgets": [
+        "dnd",
+        "mpris",
+        "notifications",
+        "volume",
+        "backlight",
+        "buttons"
+    ],
+
+    "widget-config": {
+        "title": {
+            "text": "Notifications",
+            "clear-all-button": true
+        },
+
+        "dnd": {
+            "text": "Do Not Disturb"
+        },
+
+        "volume": {
+            "label": "Volume"
+        },
+
+        "backlight": {
+            "label": "Brightness"
+        }
+    }
+}

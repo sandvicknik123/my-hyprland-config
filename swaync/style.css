@@ -1,0 +1,66 @@
+@define-color bg rgba(20, 10, 35, 0.85);
+@define-color surface rgba(45, 20, 70, 0.85);
+@define-color accent #7a2cff;
+@define-color text #e6ddff;
+
+
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+}
+
+
+.notification-row {
+    outline: none;
+}
+
+
+.notification {
+    background: @surface;
+    border-radius: 14px;
+    margin: 8px;
+    padding: 10px;
+}
+
+
+.notification-content {
+    color: @text;
+}
+
+
+.notification-action {
+    background: @accent;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.control-center {
+    background: @bg;
+    border-radius: 20px;
+    border: 2px solid @accent;
+    padding: 15px;
+}
+
+
+.control-center-list {
+    background: transparent;
+}
+
+
+.widget-title {
+    color: @text;
+    font-size: 18px;
+}
+
+
+.widget-dnd {
+    background: @surface;
+    border-radius: 12px;
+}
+
+
+.widget-volume {
+    background: @surface;
+    border-radius: 12px;
+}
