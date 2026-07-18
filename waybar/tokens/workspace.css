@@ -1,0 +1,65 @@
+@import "colors.css";
+
+
+#workspaces {
+
+margin: 6px 5px;
+
+padding: 4px 6px;
+
+background-color: @surface_container;
+
+border-radius: 14px;
+}
+
+
+#workspaces button {
+
+min-width: 28px;
+
+padding: 0 6px;
+
+margin: 0 2px;
+
+background: transparent;
+
+border-radius: 12px;
+
+color: @tertiary;
+
+transition: all 0.3s ease;
+}
+
+
+#workspaces button.active {
+
+padding: 0 12px;
+
+background-color: @primary_container;
+
+color: @primary;
+
+}
+
+
+#workspaces button:hover {
+
+background-color: @surface_container_high;
+
+color: @primary;
+
+}
+
+
+#workspaces button.empty {
+
+color: @outline_variant;
+
+}
+
+
+#workspaces button.urgent {
+
+color: @error;
+
+}
